@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #67eeef;
+  background: #18c1cd;
   color: #fff;
 }
 
@@ -515,24 +515,22 @@ h6 {
   position: relative;
 }
 
-#hero h1{
+#hero-odontopediatria h1,
+#hero h1,
+#hero-cirugia h1,
+#hero-ortodoncia h1,
+#hero-implantes h1,
+#hero-endodoncia h1,
+#hero-protesis h1{
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-}
-
-#hero-implantes{
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 56px;
   color: #fff;
 }
 
 #hero h2 {
-  color: #2f3d88;
+  color: #2c4964;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -708,7 +706,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #1b2354;
+  background: #67eeef;
   border-radius: 4px;
   color: #fff;
 }
@@ -1204,6 +1202,68 @@ section {
   }
 
   .departments .nav-link.active {
+    color: #fff;
+    background: #67eeef;
+  }
+}
+
+/*--------------------------------------------------------------
+# Ortodoncia
+--------------------------------------------------------------*/
+.ortodoncia {
+  overflow: hidden;
+}
+
+.ortodoncia .nav-tabs {
+  border: 0;
+}
+
+.ortodoncia .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #2c4964;
+  border-radius: 0;
+  border-right: 2px solid #ebf1f6;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.ortodoncia .nav-link:hover {
+  color: #67edef;
+}
+
+.ortodoncia .nav-link.active {
+  color: #18c1cd;
+  border-color: #67eeef;
+}
+
+.ortodoncia .tab-pane.active {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.ortodoncia .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c4964;
+}
+
+.ortodoncia .details p {
+  color: #777777;
+}
+
+.ortodoncia .details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .ortodoncia .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+
+  .ortodoncia .nav-link.active {
     color: #fff;
     background: #67eeef;
   }
