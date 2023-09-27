@@ -1404,7 +1404,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #76b5ee;
+  color: #fb9bfb;
 }
 
 .faq .faq-list .icon-show,
@@ -1429,7 +1429,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1977cc;
+  color: #2f3d88;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1860,3 +1860,13 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.btn-whapp img{
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  bottom: 60px;
+  position: fixed;
+  right: 11px;
+}  
