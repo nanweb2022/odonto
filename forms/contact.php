@@ -31,5 +31,10 @@
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
+  $contacto->honeypot = $_POST['first_name'];
+
+  if($_POST['privacidad'] !='aceptar') {
+    die('Por favor, acepte nuestros términos de servicio y política de privacidad');
+   }  
   echo $contact->send();
 ?>
